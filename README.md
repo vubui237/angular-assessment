@@ -33,13 +33,13 @@
 
   1. For this section we will be getting all of the products and displaying them on the shopping page.
 
-  2. For the shop.html view you're going to need to make an api call to https://practiceapi.devmounta.com/products to get all the products. Use your shopService to make this request.
+  2. For the shop.html view you're going to need to make an api call to https://practiceapi.devmountain.com/products to get all the products. Use your shopService to make this request.
 
   3. Ensure that the data that comes back from the request is saved in an array on $scope in your shopCtrl.
 
   4. Now that we have our data, loop over you data in shop.html   There is some sample html in `product-tmpl.html` for what each product should look like.  
 
-  5. Setup the product-details.html page. You'll need to check the state params for the id being passed along in the route. After you have that id you'll need to make an api call to https://practiceapi.devmounta.com/products/ + the id being passed in the route. This will return the specific product based off the id you passed. Put that product on $scope and display in the view.
+  5. Setup the product-details.html page. You'll need to check the state params for the id being passed along in the route. After you have that id you'll need to make an api call to https://practiceapi.devmountain.com/products/ + the id being passed in the route. This will return the specific product based off the id you passed. Put that product on $scope and display in the view.
 
   After your data is displaying correctly you'll need to get the product-details view configured. In your routes file add a route called details. This route is going to have to handle the productId correctly.  
 
