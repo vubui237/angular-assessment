@@ -61,7 +61,7 @@
   5. Give your directive element a class and use position absolute and additional css to place the logo in the upper right corner and resize the image to make it look good. Write your css in the app.css file in the styles folder.
 
 
-## Part 2
+## Part 2 - Not Required to Badge
 
   1. Create a directive that shows an individual product. Move all the styling and data for a specific product into a directive. (The template already exists in `product-tmpl.html`).
 
