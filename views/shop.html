@@ -1,11 +1,29 @@
+<!-- <section class="lede section--padding-both">
+    <div class="container">
+        <p>Shop Page</p>
+        <div class="product-grid__item   grid__item one-half large--one-third" >
+        <div ng-repeat="stuff in something">
+        <h3 class="product-grid__name"><a ui-sref="details({id: stuff.id})">{{stuff.title}}</a></h3>
+        </div>
+        </div>
+    </div>
+</section> -->
+
 <section class="lede section--padding-both">
     <div class="container">
         <p>Shop Page</p>
     </div>
 </section>
-<div class="product-grid__item   grid__item one-half large--one-third" >
+    <!-- <product-details ng-repeat="stuff in something"></product-details> -->
+ <div class="product-grid__item   grid__item one-half large--one-third" ng-repeat="stuff in something">
 
     <!--Repeat over your data and display it below -->
+    <center><a ui-sref="details({id: stuff.id})">{{stuff.title}}</a><br>
+   
+    
+    
+    
+  
+     <img ng-src="{{stuff.image}}" class="product-grid__img"  sizes="(min-width: 960px) 33vw, (min-width: 769px) 50vw, 100vw" alt="">
 
     
-</div>
